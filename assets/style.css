@@ -281,6 +281,13 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.12;margin:0}
 .gal a::after{content:"";position:absolute;inset:0;background:rgba(2,13,24,.3);opacity:0;transition:.35s}
 .gal a:hover::after{opacity:1}
 
+/* ---------- Video ---------- */
+.vid-wrap{max-width:640px;margin:0 auto;text-align:center}
+.vid-box{border-radius:var(--radius);overflow:hidden;border:1px solid var(--gold-line);background:var(--navy-glass);box-shadow:var(--shadow)}
+.vid-embed{position:relative;padding-bottom:56.25%;height:0}
+.vid-embed iframe{position:absolute;inset:0;width:100%;height:100%}
+.vid-cap{font-size:13px;color:var(--muted);margin:14px 0 0;text-align:center}
+
 /* ---------- Enquiry form ---------- */
 .enq{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:52px;align-items:start}
 .form-card{padding:32px}
