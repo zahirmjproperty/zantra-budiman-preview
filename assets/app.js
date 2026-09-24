@@ -260,8 +260,8 @@
   document.getElementById("footContact").innerHTML =
     "WhatsApp / Call: <a href=\"" + waHref + "\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--gold)\">" +
     C.phone + "</a>";
-  document.getElementById("brochureBtn").href = brochure.url;
-  document.getElementById("footBrochure").href = brochure.url;
+  document.getElementById("brochureBtn").href = "#contact";
+  document.getElementById("footBrochure").href = "#contact";
   document.getElementById("yr").textContent = new Date().getFullYear();
 
   document.getElementById("contactPoints").innerHTML = [
