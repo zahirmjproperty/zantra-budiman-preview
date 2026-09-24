@@ -9,6 +9,7 @@ const projectConfig = {
   project: "Pusat Perindustrian Budiman, Semenyih",
   eyebrow: "Pusat Perindustrian",
   location: "Sungai Lalang, Semenyih, Selangor",
+  developer: "Pujangga Budiman — Magna Bay Sdn Bhd (586989-H)",
   whatsapp: "60163119076",
   whatsappName: "Mr Tanah",
   phone: "016-3119076",

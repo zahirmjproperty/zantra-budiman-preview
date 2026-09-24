@@ -46,7 +46,8 @@
     "Showroom + Office + Factory + Warehouse concept",
     "Freehold with individual title",
     "Modern corporate glass façade",
-    "66-ft main road frontage"
+    "66-ft main road frontage",
+    "Pemaju: Pujangga Budiman — Magna Bay Sdn Bhd (586989-H)"
   ]
     .map((t) => "<li>" + t + "</li>")
     .join("");
