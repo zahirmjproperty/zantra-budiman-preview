@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://budiman.project.zentrapropertygroup.com/sitemap.xml
+Sitemap: https://zahirmjproperty.github.io/zentra-budiman-preview/sitemap.xml
