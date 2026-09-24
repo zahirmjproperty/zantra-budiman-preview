@@ -111,6 +111,7 @@ const whyInvest = [
 
 /* ---- Gallery ---- */
 const gallery = [
+  { src: "assets/img/hero-bg.jpg",      cat: "exterior", title: "Main Building — Architectural Rendering" },
   { src: "assets/img/hero-aerial.jpg",   cat: "aerial",   title: "Overall Development — Aerial View" },
   { src: "assets/img/render-facade.jpg", cat: "exterior", title: "Modern Corporate Glass Facade" },
   { src: "assets/img/render-front.jpg",  cat: "exterior", title: "Front Elevation" },
