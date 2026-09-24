@@ -211,13 +211,15 @@ h1,h2,h3,h4{margin:0}
 /* ---------- Hero ---------- */
 .hero{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;padding-top:80px}
 .hero-media{position:absolute;inset:0}
-.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 42%;filter:saturate(1.06) contrast(1.18) brightness(.75)}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 42%;filter:saturate(1.08) contrast(1.35) brightness(.48)}
 @keyframes slowZoom{from{transform:scale(1)}to{transform:scale(1.075)}}
-.hero::before{
+.hero-media::after{
   content:"";position:absolute;inset:0;z-index:1;
-  background:
-    linear-gradient(180deg,rgba(7,27,51,.05) 0%,rgba(7,27,51,.28) 42%,rgba(247,249,252,.94) 92%),
-    radial-gradient(120% 80% at 20% 30%,rgba(7,27,51,.18),transparent 60%);
+  background:linear-gradient(135deg,rgba(7,27,51,.52) 0%,rgba(7,27,51,.3) 45%,rgba(7,27,51,.38) 100%);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:2;
+  background:linear-gradient(180deg,rgba(7,27,51,.45) 0%,rgba(7,27,51,.6) 32%,rgba(247,249,252,.97) 87%);
   pointer-events:none;
 }
 .hero-body{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:0 24px 80px;width:100%;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:end}
